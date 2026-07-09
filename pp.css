@@ -121,7 +121,6 @@ img{ max-width: 100%; display: block; }
 
 /* ============ HOME ============ */
 .home{ padding: 70px 6vw 60px;
-      margin-right:100px;
 }
 
 .home-content{
@@ -221,7 +220,7 @@ img{ max-width: 100%; display: block; }
     display: flex;
     align-item:center;
     text-align:center;
-    margin-right:100px;
+    
 }
 
 .avatar {
@@ -229,7 +228,7 @@ img{ max-width: 100%; display: block; }
   height: 400px;
   border-radius: 50%;
   overflow: hidden;
-  position: absolute;
+  
   background: #0d1517;
   padding: 3px;
   background: linear-gradient(135deg, #0ce3df, #0a9787);
