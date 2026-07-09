@@ -218,7 +218,8 @@ img{ max-width: 100%; display: block; }
 /* avatar */
 .home-img{ 
     display: flex;
-    margin-right:50px;
+    align-item:center;
+    justify-content:center;
 }
 
 .avatar {
