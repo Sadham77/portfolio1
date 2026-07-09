@@ -121,6 +121,7 @@ img{ max-width: 100%; display: block; }
 
 /* ============ HOME ============ */
 .home{ padding: 70px 6vw 60px;
+      margin-right:100px;
 }
 
 .home-content{
