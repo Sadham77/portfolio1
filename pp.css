@@ -219,6 +219,8 @@ img{ max-width: 100%; display: block; }
 /* avatar */
 .home-img{ 
     display: flex;
+    align-item:center;
+    text-align:center;
     margin-right:100px;
 }
 
