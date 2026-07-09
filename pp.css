@@ -218,9 +218,7 @@ img{ max-width: 100%; display: block; }
 /* avatar */
 .home-img{ 
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right:100px;
+    margin-right:50px;
 }
 
 .avatar {
