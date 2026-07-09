@@ -218,7 +218,7 @@ img{ max-width: 100%; display: block; }
 /* avatar */
 .home-img{ 
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     
 }
@@ -232,7 +232,7 @@ img{ max-width: 100%; display: block; }
   background: #0d1517;
   padding: 3px;
   background: linear-gradient(135deg, #0ce3df, #0a9787);
-  margin-right:50px;
+  
 }
 .avatar:hover{
     width: 430px;
