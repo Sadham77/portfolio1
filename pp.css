@@ -128,7 +128,7 @@ img{ max-width: 100%; display: block; }
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 60px;
     flex-wrap: wrap-reverse;
 }
@@ -219,6 +219,7 @@ img{ max-width: 100%; display: block; }
 .home-img{ 
     display: flex;
     align-item:center;
+    gap:100px;
     
 }
 
