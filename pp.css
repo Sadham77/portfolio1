@@ -218,14 +218,12 @@ img{ max-width: 100%; display: block; }
 /* avatar */
 .home-img{ 
     display: flex;
-    align-item:center;
-    text-align:center;
+    padding-right:100px;
+    
     
 }
 
 .avatar {
-  display:flex;
-    align-item:center;
   width: 400px;
   height: 400px;
   border-radius: 50%;
