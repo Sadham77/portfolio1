@@ -41,7 +41,7 @@ img{ max-width: 100%; display: block; }
 /* ============ HEADER ============ */
 .header{
     position: sticky;
-    height: 110px;
+    height: 100px;
     top: 0;
     z-index: 100;
     display: flex;
@@ -120,8 +120,7 @@ img{ max-width: 100%; display: block; }
 }
 
 /* ============ HOME ============ */
-.home{ padding: 70px 6vw 60px; 
-    margin-top: 50px;
+.home{ padding: 70px 6vw 60px;
 }
 
 .home-content{
@@ -220,7 +219,6 @@ img{ max-width: 100%; display: block; }
 .home-img{ 
     display: flex;
     align-items: center;
-    padding-right: 50px;
 }
 
 .avatar {
