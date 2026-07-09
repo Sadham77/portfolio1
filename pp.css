@@ -131,7 +131,9 @@ img{ max-width: 100%; display: block; }
     justify-content: space-between;
     gap: 60px;
     flex-wrap: wrap-reverse;
+    width: 100%;
 }
+
 
 .cont{ max-width: 560px; flex: 1 1 420px; }
 
@@ -222,12 +224,12 @@ img{ max-width: 100%; display: block; }
     align-items: center;
     flex: 1 1 400px;
     max-width: 100%;
+    min-width: 0;
 }
 
 .avatar {
-  width: 400px;
-  height: 400px;
-  max-width: 100%;
+  width: clamp(260px, 30vw, 400px);
+  height: clamp(260px, 30vw, 400px);
   border-radius: 50%;
   overflow: hidden;
   position: relative;
@@ -235,13 +237,10 @@ img{ max-width: 100%; display: block; }
   padding: 3px;
   background: linear-gradient(135deg, #0ce3df, #0a9787);
   margin: 0 auto;
+  transition: 0.4s ease;
 }
-
 .avatar:hover{
-    width: 430px;
-    height: 430px;
-    transition: 0.4s ease;
-    opacity: 1;
+    transform: scale(1.05);
 }
 
 .avatar-photo {
