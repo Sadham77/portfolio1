@@ -128,7 +128,7 @@ img{ max-width: 100%; display: block; }
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 60px;
     flex-wrap: wrap-reverse;
 }
@@ -220,20 +220,23 @@ img{ max-width: 100%; display: block; }
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    flex: 1 1 400px;
+    max-width: 100%;
 }
 
 .avatar {
   width: 400px;
   height: 400px;
+  max-width: 100%;
   border-radius: 50%;
   overflow: hidden;
   position: relative;
   background: #0d1517;
   padding: 3px;
   background: linear-gradient(135deg, #0ce3df, #0a9787);
-  
+  margin: 0 auto;
 }
+
 .avatar:hover{
     width: 430px;
     height: 430px;
